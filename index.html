@@ -6,6 +6,11 @@
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
@@ -18,13 +23,13 @@
   </header>
 
   <section class="about">
-    <div class="about__info">
+    <div class="about__info animate__animated animate__fadeInLeft animate__slow">
       <h1>Солнечные панели GreenRobotic</h1>
       <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-      <button>Узнать подробнее</button>
+      <button>Узнать подробнее <i class="fas fa-angle-right"></i></button>
     </div>
-    <div class="about__images">
-      <img class="about__sun-image" src="img/sun.png">
+    <div class="about__images animate__animated animate__fadeInRight animate__slow">
+      <img class="about__sun-image rotation" src="img/sun.png">
       <img class="about__image" src="img/solar-panel.png">
     </div>
   </section>
@@ -40,27 +45,27 @@
       <form>
         <div class="form__group">
           <label for="name">Ваше имя</label>
-          <input type="text" placeholder="Введите имя" id="name">
+          <input type="text" placeholder=" Введите имя" id="name">
         </div>
         <div class="form__group">
           <label for="email">Электронный адрес</label>
-          <input type="email" placeholder="***@yandex.ru" id="email">
+          <input type="email" placeholder=" ***@yandex.ru" id="email">
         </div>
         <div class="form__group">
           <label for="phone">Номер телефона</label>
-          <input type="text" placeholder="7 (999) 999-99-99" id="phone">
+          <input type="text" placeholder=" 7 (999) 999-99-99" id="phone">
         </div>
         <div class="form__group">
           <label for="budget">Примерный бюджет</label>
           <select id="budget">
-            <option value="10–30">10 000₽ – 30 000₽</option>
-            <option value="30-60">30 000₽ – 60 000₽</option>
-            <option value="60-100">60 000₽ – 100 000₽</option>
-            <option value="100">100 000₽</option>
+            <option value="10–30"> 10 000₽ – 30 000₽</option>
+            <option value="30-60"> 30 000₽ – 60 000₽</option>
+            <option value="60-100"> 60 000₽ – 100 000₽</option>
+            <option value="100"> 100 000₽</option>
           </select>
         </div>
         <button class="form__submit" type="submit">Отправить заявку
-        </button>
+          </button>
       </form>
     </div>
   </section>
@@ -91,6 +96,8 @@
     </div>
     <div class="footer__copyright">GreenCorp © 2021</div>
   </footer>
+
+  <script src="fa/js/all.min.js"></script>
 
 </body>
 
