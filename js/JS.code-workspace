@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../JS"
+		},
+		{
+			"path": "../../../project"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Mantikore"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Documents"
+	}
+}
